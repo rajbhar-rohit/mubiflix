@@ -5,6 +5,10 @@
 [build.environment]
   NEXT_STATIC_DIRECTORY = "true"
   NODE_VERSION = "18"
+  NPM_FLAGS = "--legacy-peer-deps"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[functions]
+  node_bundler = "esbuild"
