@@ -1,0 +1,36 @@
+{
+  "name": "mubiflix-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@tremor/react": "^3.18.7",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.7.0",
+    "next": "14.1.0",
+    "next-auth": "^4.24.11",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.60.0",
+    "recharts": "^2.15.4",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.11.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
