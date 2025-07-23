@@ -6,4 +6,4 @@ NEXT_STATIC_DIRECTORY = "true"
 NODE_VERSION = "18"
 
 [[plugins]]
-package = "@netlify/plugin-nextjs""
+package = "@netlify/plugin-nextjs"
